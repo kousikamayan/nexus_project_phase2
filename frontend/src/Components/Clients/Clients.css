@@ -1,0 +1,9 @@
+.clients{
+    padding: 10px 0;
+}
+.client-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}

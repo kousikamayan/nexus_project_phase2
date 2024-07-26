@@ -1,0 +1,45 @@
+.img{
+    border-radius: 8px;
+    overflow: hidden;
+}
+.img img{
+    transition: 0.6s;
+}
+.service-item1{
+    
+    box-shadow: 0px 0 30px rgba(0, 0,0,0.1);
+    padding: 50px 30px;
+    transition: all ease-in-out 0.4s;
+    overflow: hidden;
+    z-index: 1;
+
+}
+.service-item1:hover {
+    background: #fff;
+    transform: translateY(-5px); /* Move the item up on hover */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+  }
+.details{
+    background: #ffff;
+    position: absolute;
+    left: 40px;
+    right: 40px;
+    bottom: 60px;
+    padding: 20px 15px;
+    transition: all ease-in-out 0.3s;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 0 25px rgba(0,   0, 0, 0.1);
+}
+.details a {
+    text-decoration: none;
+    transition: 0.3s;
+    color: #282828;
+}
+.details h3{
+    font-weight: 700;
+    margin: 10px 0 15px 0;
+    font-size: 22px;
+    transition: ease-in-out 0.3s;
+
+}

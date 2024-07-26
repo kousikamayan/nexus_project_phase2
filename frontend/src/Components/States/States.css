@@ -1,0 +1,21 @@
+.stats-item{
+    padding: 10px;
+}
+.stats-item i{
+    font-size: 44px;
+    color:#4a860d ;
+    line-height: 0;
+    margin-right: 15px;
+}
+.purecounter{
+    color: #282828;
+    font-size: 40px;
+    display: block;
+    font-weight: 700;
+    line-height: 40px;
+}
+.stats-item p{
+    color: color-mix(in srgb,#282828 , transparent 40%);
+    padding: 15px 0 0 0 0;
+    font-size: 14px;
+}

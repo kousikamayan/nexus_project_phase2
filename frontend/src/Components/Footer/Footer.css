@@ -1,0 +1,60 @@
+.Footercontainer{
+    background: #282828;
+}
+
+.footer .btn.btn-link{
+    text-align: left;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.footerItems{
+    display: flex;
+    flex-direction: column;
+}
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    transition: .3s;
+}
+
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+.footer .copyright a {
+    color: var(--light);
+}
+.containerCompany>a{
+    text-decoration: none;
+
+}
+/* Footer.css or a global CSS file */
+/* Footer.css */
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInUp {
+    animation-name: fadeInUp;
+  }
+.section-title::before{
+    visibility: hidden;
+}
